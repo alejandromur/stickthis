@@ -10,12 +10,11 @@
 <h2>Usage</h2>
 <p>• Download or fork the repository.</p>
 <p>• Include jQuery and the Javascript file minify or not in your HTML.</p>
+<p>• Initialize the plugin</p>
 <pre>
-<b>// Add the BUTTON to the HTML</b>
-<b>// Initialize the plugin</b>
 $(".your-element-selector").stickthis();
 <br>
-<b>// some options are available</b>
+<b>// some options are customizable</b>
 $(".stickthis").stickthis({
     classname : "sticked", // asgin the class you like the most
     complete : function(){ // callback
